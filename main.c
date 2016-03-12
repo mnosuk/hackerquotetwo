@@ -25,14 +25,15 @@ void loadProblem(char load_input[300], int n)
 int main(int argc, const char * argv[]) {
     char load_input[300];
     int n_input;
-    
+
     printf("load:");
     scanf("%s", load_input);
-    
+
     printf("n:");
     scanf("%d", &n_input);
-    
+
     loadProblem(load_input, n_input);
-    
+    printf("pongib\n", );
+
     return 0;
 }
